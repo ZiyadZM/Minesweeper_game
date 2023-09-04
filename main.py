@@ -22,7 +22,7 @@ def initialize_board(rows, cols, num_mines):
                     board[row][col] = str(count)
     return board
 
-
+####h
 def play_minesweeper():
     rows, cols, num_mines = 8, 8, 10
     board = initialize_board(rows, cols, num_mines)
